@@ -7,7 +7,6 @@ const client = new Client({
 // const config = require('./config.json');
 
 const token = process.env.TOKEN1;
-const channel = client.channels.cache.get('785917648693100605');    
 
 
 
@@ -37,6 +36,7 @@ function launch() {
 
 function summonTask() {
     var val = 0
+      const channel = client.channels.cache.get('785917648693100605');    
     
     var summon = setInterval(() => {
         channel.send(`$ma`)
