@@ -6,7 +6,7 @@ const client = new Client({
 
 // const config = require('./config.json');
 
-const token = process.env.TOKEN
+const token = process.env.TOKEN1
 
 
 client.on('ready', () => {
